@@ -1,11 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vista Verde</title>
 </head>
-<body>
-    
+
+<body class="bg-[#8d6932]">
+    <!-- HEADER -->
+    <header class="flex flex-col lg:flex-row items-center justify-between bg-[#8d6932] px-20 py-6">
+        <div class="logo">
+            <img class="w-56 h-auto" src="img/logo-vista-verde.png" alt="Logo Vista Verde">
+        </div>
+        <nav class="nav-bar mt-5 lg:mt-0">
+            <ul class="flex justify-center gap-10 lg:gap-20 text-[#C3E2B5] text-sm md:text-lg">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="produtos.html">PRODUTOS</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CORPO -->
+    <!-- DIVISÃO 1 -->
+    <section class="bg-cover bg-center h-[65vw] md:h-[60vw] lg:h-[50vw] flex flex-col justify-center items-center text-[#8d6932]" style="background-image: url('img/banner.jpg');">
+        <div class="text-2xl md:text-4xl lg:text-5xl font-bold shadow-lg">
+            <h1>Beleza Natural em Seu Espaço</h1>
+        </div>
+        <div class="mt-12 text-sm md:text-xl lg:text-2xl bg-[#8d6932] text-white py-2 px-6 rounded-lg">
+            <p>Descubra Mais</p>
+        </div>
+    </section>
+
+    <!-- DIVISÃO 2 -->
+    <section class="flex flex-col lg:flex-row items-center bg-[#8d6932] py-16 lg:py-20 lg:px-10">
+        <div class="w-2/4">
+            <img class="mx-auto lg:ml-20 lg:w-3/4" src="img/vista-verde.jpg" alt="Loja da Vista Verde Plantas Ornamentais.">
+        </div>
+        <div class="text-[#C3E2B5] text-xl lg:text-2xl mt-10 lg:mt-0 w-2/4 lg:w-1/2 mx-auto lg:mr-20">
+            <p class="lg:ml-16">A Vista Verde é especialista em trazer vida aos ambientes através de plantas ornamentais selecionadas.
+                Com mais de 20 anos de experiência, oferecemos soluções verdes personalizadas para lares e escritórios.
+                Conecte-se com a natureza onde você estiver.</p>
+        </div>
+    </section>
+
+    <!-- DIVISÃO 3 -->
+    <div class="text-[#C3E2B5] text-3xl lg:text-4xl font-semibold mt-10 lg:mt-20 text-center">
+        <h1>Produtos</h1>
+    </div>
+
+    <section class="flex flex-col lg:flex-row justify-around items-center bg-[#8d6932] py-10 lg:py-20">
+        <div class="container-1 text-center">
+            <div class="image-2">
+                <img class="w-2/4 lg:w-3/5 mx-auto" src="img/ficus-capa.jpg" alt="Ficus Lyrata">
+            </div>
+            <div class="text-[#C3E2B5] text-2xl lg:text-3xl mt-5">
+                <p>Ficus Lyrata</p>
+            </div>
+            <a href="ficus-lyrata.html">
+                <div class="bg-[#5C8442] text-[#C3E2B5] py-4 px-6 mt-5 text-xl lg:text-2xl rounded-lg w-40 lg:w-52 mx-auto">
+                    <p>Saiba Mais</p>
+                </div>
+            </a>
+        </div>
+        <div class="text-center mt-10 lg:mt-0">
+            <div class="image-3">
+                <img class="w-2/4 lg:w-3/5 mx-auto" src="img/areca-capa.jpg" alt="Areca Palmeira">
+            </div>
+            <div class="text-[#C3E2B5] text-2xl lg:text-3xl mt-5">
+                <p>Areca Palmeira</p>
+            </div>
+            <a href="areca-palmeira.html">
+                <div class="bg-[#5C8442] text-[#C3E2B5] py-4 px-6 mt-5 text-xl lg:text-2xl rounded-lg w-40 lg:w-52 mx-auto">
+                    <p>Saiba Mais</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- DIVISÃO 4 -->
+    <section class="flex flex-col lg:flex-row justify-around items-center bg-[#8d6932] py-10 lg:py-20">
+        <div class="text-center">
+            <div class="image-4">
+                <img class="w-2/4 lg:w-3/5 mx-auto" src="img/espada-capa.jpg" alt="Espada de São Jorge">
+            </div>
+            <div class="text-[#C3E2B5] text-2xl lg:text-3xl mt-5">
+                <p>Espada de São Jorge</p>
+            </div>
+            <a href="espada.html">
+                <div class="button-4 bg-[#5C8442] text-[#C3E2B5] py-4 px-6 mt-5 text-xl lg:text-2xl rounded-lg w-40 lg:w-52 mx-auto">
+                    <p>Saiba Mais</p>
+                </div>
+            </a>
+        </div>
+        <div class="text-center mt-10 lg:mt-0">
+            <div class="image-5">
+                <img class="w-2/4 lg:w-3/5 mx-auto" src="img/phalaenopsis-capa.jpg" alt="Orquídea Phalaenopsis">
+            </div>
+            <div class="text-[#C3E2B5] text-2xl lg:text-3xl mt-5">
+                <p>Orquídea Phalaenopsis</p>
+            </div>
+            <a href="orquidea-phalaenopsis.html">
+                <div class="button-5 bg-[#5C8442] text-[#C3E2B5] py-4 px-6 mt-5 text-xl lg:text-2xl rounded-lg w-40 lg:w-52 mx-auto">
+                    <p>Saiba Mais</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- DIVISÃO 5 -->
+    <section class="flex flex-col items-center bg-[#8d6932] py-10">
+        <a href="produtos.html">
+            <div class="bg-[#5C8442] text-[#C3E2B5] py-4 px-8 text-xl lg:text-2xl rounded-lg w-52 lg:w-64 mx-auto">
+                <p class="text-center">Mais Produtos</p>
+            </div>
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="flex justify-center items-center bg-[#C3E2B5] text-[#5C8442] text-xl lg:text-2xl text-center py-8">
+        <p>Vista Verde - 2024 - Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
