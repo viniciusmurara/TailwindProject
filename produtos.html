@@ -3,87 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Produtos</title>
 </head>
-<body>
+<body class="bg-[#8d6932]">
     <!-- HEADER -->
-    <header>
-        <div class="logo">
-            <img src="img/logo-vista-verde.png" alt="">
-        </div>
-        <nav class="nav-bar">
-            <ul>
+    <header class="flex flex-col lg:flex-row items-center justify-between bg-[#8d6932] px-20 py-6">
+        <a href="index.html" class="logo">
+            <img class="w-56 h-auto" src="img/logo-vista-verde.png" alt="Logo Vista Verde">
+        </a>
+        <nav class="nav-bar mt-5 lg:mt-0">
+            <ul class="flex justify-center gap-10 lg:gap-20 text-[#C3E2B5] text-sm md:text-lg">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="produtos.html">PRODUTOS</a></li>
-                <li id="sobre"><a href="sobre.html">SOBRE</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- DIVISÃO 3 -->
-    <section id="section-3">
-        <div class="container-1">
-            <div class="image-2">
-                <img src="img/ficus-capa.jpg" alt="">
+    <!-- DIVISÃO 1 -->
+    <section class="flex flex-col lg:flex-row justify-evenly">
+        <div class="flex flex-col items-center">
+            <div id="image-1">
+                <img class="w-[60vw] lg:w-[32vw] mt-28" src="img/ficus-capa.jpg" alt="Ficus Lyrata">
             </div>
-            <div class="text-2">
+            <div class="text-[#C3E2B5] text-3xl mt-4">
                 <p>Ficus Lyrata</p>
             </div>
-            <a href="ficus-lyrata.html">
-                <div class="button-2">
-                    <p>Saiba Mais</p>
-                </div>
+            <a href="ficus-lyrata.html" class="flex justify-center items-center bg-[#5C8442] text-[#C3E2B5] w-32 lg:w-40 h-12 mt-4 text-xl lg:text-xl rounded-lg">
+                <p>Saiba Mais</p>
             </a>
         </div>
-        <div class="container-2">
-            <div class="image-3">
-                <img src="img/areca-capa.jpg" alt="">
+        <div class="flex flex-col items-center">
+            <div id="image-2">
+                <img class="w-[60vw] lg:w-[32vw] mt-28" src="img/areca-capa.jpg" alt="Areca Palmeira">
             </div>
-            <div class="text-3">
+            <div class="text-[#C3E2B5] text-3xl mt-4">
                 <p>Areca Palmeira</p>
             </div>
-            <a href="areca-palmeira.html">
-                <div class="button-3">
-                    <p>Saiba Mais</p>
-                </div>
+            <a href="areca-palmeira.html" class="flex justify-center items-center bg-[#5C8442] text-[#C3E2B5] w-32 lg:w-40 h-12 mt-4 text-xl lg:text-xl rounded-lg">
+                <p>Saiba Mais</p>
             </a>
         </div>
     </section>
 
-    <!-- DIVISÃO 4 -->
-    <section id="section-4" style="margin-bottom: 150px;">
-        <div class="container-3">
-            <div class="image-4">
-                <img src="img/espada-capa.jpg" alt="">
+    <!-- DIVISÃO 2 -->
+    <section class="flex flex-col lg:flex-row justify-evenly mb-40">
+        <div class="flex flex-col items-center">
+            <div id="image-3">
+                <img class="w-[60vw] lg:w-[32vw] mt-28" src="img/espada-capa.jpg" alt="Espada de São Jorge">
             </div>
-            <div class="text-4">
+            <div class="text-[#C3E2B5] text-3xl mt-4">
                 <p>Espada de São Jorge</p>
             </div>
-            <a href="espada.html">
-                <div class="button-4">
-                    <p>Saiba Mais</p>
-                </div>
+            <a href="espada.html" class="flex justify-center items-center bg-[#5C8442] text-[#C3E2B5] w-32 lg:w-40 h-12 mt-4 text-xl lg:text-xl rounded-lg">
+                <p>Saiba Mais</p>
             </a>
         </div>
-        <div class="container-4">
-            <div class="image-5">
-                <img src="img/phalaenopsis-capa.jpg" alt="">
+        <div class="flex flex-col items-center">
+            <div id="image-4">
+                <img class="w-[60vw] lg:w-[32vw] mt-28" src="img/phalaenopsis-capa.jpg" alt="Orquídea Phalaenopsis">
             </div>
-            <div class="text-5">
+            <div class="text-[#C3E2B5] text-3xl mt-4">
                 <p>Orquídea Phalaenopsis</p>
             </div>
-            <a href="orquidea-phalaenopsis.html">
-                <div class="button-5">
-                    <p>Saiba Mais</p>
-                </div>
+            <a href="orquidea-phalaenopsis.html" class="flex justify-center items-center bg-[#5C8442] text-[#C3E2B5] w-32 lg:w-40 h-12 mt-4 text-xl lg:text-xl rounded-lg">
+                <p>Saiba Mais</p>
             </a>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="flex justify-center items-center h-32 bg-[#C3E2B5] text-[#5C8442] p-10 text-lg md:text-xl lg:text-2xl text-center">
         <div class="text-6">
             <p>Vista Verde - 2024 - Todos os direitos reservados.</p>
         </div>
