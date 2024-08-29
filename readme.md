@@ -31,3 +31,4 @@ Passo 6: Rodar o index.html com o Go Live
 2. [Github](https://github.com/)
 3. [Github Desktop](https://github.com/apps/desktop)
 4. [TailWindCSS](https://tailwindcss.com/docs/installation)
+<a href="http://stackoverflow.com" target="_blank">Go</a>
