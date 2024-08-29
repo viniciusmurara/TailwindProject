@@ -1,6 +1,6 @@
-# Avaliação: Criação de Site Baseado em Wireframe
+# Atividade: Recriação de Site Baseado em Wireframe
 ![Logo](./img/logo-vista-verde.png)<br>
-Site criado usando um wireframe base fornecido pelo professor<br>
+Site criado usando um wireframe base fornecido pelo professor, e posteriormente adaptado para utilizar TailWind<br>
 <br>
 
 ## Índice
@@ -19,7 +19,6 @@ Turma: AI PSIN MI-75
 <img src="./img/wireframe.png">
 
 ## Como Acessar?
-
 Passo 1: Baixar o arquivo zipado<br>
 Passo 2: Descompactar o arquivo zipado<br>
 Passo 3: Instalar o Visual Studio Code<br>
@@ -31,3 +30,4 @@ Passo 6: Rodar o index.html com o Go Live
 1. [Visual Studio Code](https://code.visualstudio.com/)
 2. [Github](https://github.com/)
 3. [Github Desktop](https://github.com/apps/desktop)
+4. [TailWindCSS](https://tailwindcss.com/docs/installation)
