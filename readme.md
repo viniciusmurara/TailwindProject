@@ -1,6 +1,6 @@
-# Atividade: Recriação de Site Baseado em Wireframe
+# Atividade: Recriar Site Baseado em Wireframe
 ![Logo](./img/logo-vista-verde.png)<br>
-Site criado usando um wireframe base fornecido pelo professor, e posteriormente adaptado com a implementação do TailWindCSS<br>
+Site criado usando um wireframe base, e posteriormente adaptado com a implementação do TailWindCSS<br>
 <br>
 
 ## Índice
